@@ -5,9 +5,94 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #faf8ef;
+  color: #776e65;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.row {
+  display: flex;
+  background-color: #bbada0;
+}
+
+.cell {
+  margin: 10px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(238, 228, 218, 0.35);
+  border-radius: 8px;
+}
+
+.cell-2 {
+  background-color: #eee4da;
+  color: #776e65;
+}
+
+.cell-4 {
+  background-color: #eee1c9;
+  color: #776e65;
+}
+
+.cell-8 {
+  background-color: #f3b27a;
+  color:#f9f6f2;
+}
+
+.cell-16 {
+  color: #f9f6f2;
+  background-color: #f69664;
+}
+
+.cell-32 {
+  color: #f9f6f2;
+  background-color: #f77c5f;
+}
+
+.cell-64 {
+  color: #f9f6f2;
+  background-color: #f75f3b;
+}
+
+.cell-128 {
+  color: #f9f6f2;
+  background-color: #edd073;
+  /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.238095), inset 0 0 0 1px rgba(255, 255, 255, 0.142857);
+  font-size: 45px; */
+}
+
+.cell-256 {
+  color: #f9f6f2;
+  background-color: #edcc62;
+  /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.190476);
+  font-size: 45px; */
+}
+
+.cell-512 {
+  color: #f9f6f2;
+  background-color: #edc950;
+  /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.396825), inset 0 0 0 1px rgba(255, 255, 255, 0.238095);
+  font-size: 45px; */
+}
+
+.cell-1024 {
+  color: #f9f6f2;
+  background-color: #edc53f;
+  /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.285714);
+  font-size: 35px; */
+}
+
+.cell-2048 {
+  color: #f9f6f2;
+  background-color: #edc22e;
+  /* box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.555556), inset 0 0 0 1px rgba(255, 255, 255, 0.333333);
+  font-size: 35px; */
 }
