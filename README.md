@@ -1,5 +1,5 @@
 # 2048
-This is a React implementation of the popular 2048 game. The game is played on a 4x4 grid, where the player slides numbered tiles around to combine them and create a tile with the number 2048.
+This is a React implementation of the popular 2048 game. The game is played on a 4x4 grid, where the player slides numbered tiles around using arrow keys to combine them and create a tile with the number 2048.
 
 ## Deployed at
 
